@@ -124,11 +124,7 @@ include 'student-navbar.php';
         <div class="main-panel">
           <div class="content-wrapper">
             <div class="page-header">
-<<<<<<< HEAD
-           
-=======
-            
->>>>>>> f14711c1dfab3921e1cad750684f5aaf87e005ce
+
               <div class="row">
                 <div class="col-sm-12">
                   <h3 class="page-title"><span style="font-size: 1.8rem;">Welcome ! <?php echo $student_name ?></span></h3>

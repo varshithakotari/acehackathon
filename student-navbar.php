@@ -136,6 +136,13 @@ session_start();
                 <i class="mdi mdi-contacts menu-icon"></i>
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="student-doubts.php">
+                <span class="menu-title" style="font-size: 1.2rem;" >Ask a doubt</span>
+                <i class="mdi mdi-contacts menu-icon"></i>
+              </a>
+            </li>
+
 
           </ul>
         </nav>
