@@ -7,11 +7,7 @@ include "student-navbar.php";
          <div class="main-panel">
           <div class="content-wrapper">
             <div class="page-header">
-<<<<<<< HEAD
-           
-=======
-            
->>>>>>> f14711c1dfab3921e1cad750684f5aaf87e005ce
+
               <div class="row">
              
                 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
