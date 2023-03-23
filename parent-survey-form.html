@@ -1,0 +1,392 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="parent-form-styles.css">
+    </head>
+    <body>
+        <form action="parent-survey-form.php" method="post">
+
+            <header>
+              <h2 style="text-align: center;">Parent Survey Form</h2>
+              <p style="text-align: center;">Fill the details to help teachers to take special care</p>
+            </header>
+            
+            <div>
+              <label class="desc" id="title1" for="Field1">Student Id</label>
+              <div>
+                <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+              </div>
+            </div>
+              
+            <div>
+                <fieldset>
+                  <legend id="title2" class="desc">
+                    Where do you Live
+                  </legend>
+                  <div>
+                      <input id="radioDefault_2" name="Field2" type="hidden" value="">
+                      <div>
+                          <input id="Field2_0" name="Field2" type="radio" value="R" tabindex="2">
+                          <label class="choice" for="Field2_0">Rural</label>
+                      </div>
+                    <div>
+                        <input id="Field2_1" name="Field2" type="radio" value="U" tabindex="3">
+                        <label class="choice" for="Field2_1">Urban</label>
+                    </div>
+                  </div>
+                </fieldset>
+            </div>
+
+            <div>
+              <fieldset>
+                <legend id="title3" class="desc">
+                  How many people live in your family
+                </legend>
+                <div>
+                    <input id="radioDefault_3" name="Field3" type="hidden" value="">
+                    <div>
+                        <input id="Field3_0" name="Field3" type="radio" value="LE3" tabindex="4">
+                        <label class="choice" for="Field3_0">Less Than or Equal to three</label>
+                    </div>
+                  <div>
+                      <input id="Field3_1" name="Field3" type="radio" value="GT3" tabindex="5">
+                      <label class="choice" for="Field3_1">Greater Than 3</label>
+                  </div>
+                </div>
+              </fieldset>
+          </div>
+
+          <div>
+            <fieldset>
+              <legend id="title4" class="desc">
+                Select the option about your Maritial status
+              </legend>
+              <div>
+                  <input id="radioDefault_4" name="Field4" type="hidden" value="">
+                  <div>
+                      <input id="Field4_0" name="Field4" type="radio" value="T" tabindex="6">
+                      <label class="choice" for="Field4_0">Living Together</label>
+                  </div>
+                <div>
+                    <input id="Field4_1" name="Field4" type="radio" value="A" tabindex="7">
+                    <label class="choice" for="Field4_1">Living Apart</label>
+                </div>
+              </div>
+            </fieldset>
+        </div>
+
+        <div>
+          <fieldset>
+            <legend id="title5" class="desc">
+              Select an option that is apt for student's mother education
+            </legend>
+            <div>
+                <input id="radioDefault_5" name="Field5" type="hidden" value="">
+                <div>
+                    <input id="Field5_0" name="Field5" type="radio" value="0" tabindex="8">
+                    <label class="choice" for="Field5_0">None of the below</label>
+                </div>
+              <div>
+                  <input id="Field5_1" name="Field5" type="radio" value="1" tabindex="9">
+                  <label class="choice" for="Field5_1">Till Primary Education(Till 4th grade)</label>
+              </div>
+              <div>
+                <input id="Field5_2" name="Field5" type="radio" value="2" tabindex="10">
+                <label class="choice" for="Field5_2">Between 5th to 9th grade</label>
+              </div>
+              <div>
+                <input id="Field5_3" name="Field5" type="radio" value="3" tabindex="11">
+                <label class="choice" for="Field5_3">Secondary Education</label>
+              </div>
+              <div>
+                <input id="Field5_4" name="Field5" type="radio" value="4" tabindex="12">
+                <label class="choice" for="Field5_4">Higher Education</label>
+              </div>
+            </div>
+          </fieldset>
+      </div>
+
+      <div>
+        <fieldset>
+          <legend id="title6" class="desc">
+            Select an option that is apt for student's Father education
+          </legend>
+          <div>
+              <input id="radioDefault_6" name="Field6" type="hidden" value="">
+              <div>
+                  <input id="Field6_0" name="Field6" type="radio" value="0" tabindex="13">
+                  <label class="choice" for="Field6_0">None of the below</label>
+              </div>
+            <div>
+                <input id="Field6_1" name="Field6" type="radio" value="1" tabindex="14">
+                <label class="choice" for="Field6_1">Till Primary Education(Till 4th grade)</label>
+            </div>
+            <div>
+              <input id="Field6_2" name="Field6" type="radio" value="2" tabindex="15">
+              <label class="choice" for="Field6_2">Between 5th to 9th grade</label>
+            </div>
+            <div>
+              <input id="Field6_3" name="Field6" type="radio" value="3" tabindex="16">
+              <label class="choice" for="Field6_3">Secondary Education</label>
+            </div>
+            <div>
+              <input id="Field6_4" name="Field6" type="radio" value="4" tabindex="17">
+              <label class="choice" for="Field6_4">Higher Education</label>
+            </div>
+          </div>
+        </fieldset>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend id="title7" class="desc">
+          Select an option that is apt for Occupation of student's mother
+        </legend>
+        <div>
+            <input id="radioDefault_7" name="Field7" type="hidden" value="">
+            <div>
+                <input id="Field7_0" name="Field7" type="radio" value="at_home" tabindex="18">
+                <label class="choice" for="Field7_0">House Wife</label>
+            </div>
+          <div>
+              <input id="Field7_1" name="Field7" type="radio" value="health" tabindex="19">
+              <label class="choice" for="Field7_1">Health Care</label>
+          </div>
+          <div>
+            <input id="Field7_2" name="Field7" type="radio" value="services" tabindex="20">
+            <label class="choice" for="Field7_2">Civil Services(Administrative/Police)</label>
+          </div>
+          <div>
+            <input id="Field7_3" name="Field7" type="radio" value="teacher" tabindex="21">
+            <label class="choice" for="Field7_3">Teacher</label>
+          </div>
+          <div>
+            <input id="Field7_4" name="Field7" type="radio" value="other" tabindex="22">
+            <label class="choice" for="Field7_4">Others</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend id="title8" class="desc">
+          Select an option that is apt for Occupation of student's Father
+        </legend>
+        <div>
+            <input id="radioDefault_8" name="Field8" type="hidden" value="">
+            <div>
+                <input id="Field8_0" name="Field8" type="radio" value="at_home" tabindex="18">
+                <label class="choice" for="Field8_0">House Wife</label>
+            </div>
+          <div>
+              <input id="Field8_1" name="Field8" type="radio" value="health" tabindex="19">
+              <label class="choice" for="Field8_1">Health Care</label>
+          </div>
+          <div>
+            <input id="Field8_2" name="Field8" type="radio" value="services" tabindex="20">
+            <label class="choice" for="Field8_2">Civil Services(Administrative/Police)</label>
+          </div>
+          <div>
+            <input id="Field8_3" name="Field8" type="radio" value="teacher" tabindex="21">
+            <label class="choice" for="Field8_3">Teacher</label>
+          </div>
+          <div>
+            <input id="Field8_4" name="Field8" type="radio" value="other" tabindex="22">
+            <label class="choice" for="Field8_4">Others</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend id="title9" class="desc">
+          Select an option that is apt for choosing this school
+        </legend>
+        <div>
+            <input id="radioDefault_9" name="Field9" type="hidden" value="">
+            <div>
+                <input id="Field9_0" name="Field9" type="radio" value="home" tabindex="1">
+                <label class="choice" for="Field9_0">Close to Home</label>
+            </div>
+          <div>
+              <input id="Field9_1" name="Field9" type="radio" value="reputation" tabindex="2">
+              <label class="choice" for="Field9_1">School Reputation</label>
+          </div>
+          <div>
+            <input id="Field9_2" name="Field9" type="radio" value="course" tabindex="3">
+            <label class="choice" for="Field9_2">Due to a Particular Course Preference</label>
+          </div>
+          <div>
+            <input id="Field9_3" name="Field9" type="radio" value="other" tabindex="4">
+            <label class="choice" for="Field9_3">Other Reasons</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend id="title10" class="desc">
+          Select the Guardian For the Student
+        </legend>
+        <div>
+            <input id="radioDefault_10" name="Field10" type="hidden" value="">
+            <div>
+                <input id="Field10_0" name="Field10" type="radio" value="mother" tabindex="1">
+                <label class="choice" for="Field10_0">Mother</label>
+            </div>
+          <div>
+              <input id="Field10_1" name="Field10" type="radio" value="father" tabindex="2">
+              <label class="choice" for="Field10_1">Father</label>
+          </div>
+          <div>
+            <input id="Field10_2" name="Field10" type="radio" value="other" tabindex="3">
+            <label class="choice" for="Field10_2">Other</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    
+
+    <div>
+      <fieldset>
+        <legend id="title11" class="desc">
+          How much time it will take to reach your home from school
+        </legend>
+        <div>
+            <input id="radioDefault_11" name="Field11" type="hidden" value="">
+            <div>
+                <input id="Field11_0" name="Field11" type="radio" value="1" tabindex="1">
+                <label class="choice" for="Field11_0">Less Than 15 minutes</label>
+            </div>
+          <div>
+              <input id="Field11_1" name="Field11" type="radio" value="2" tabindex="2">
+              <label class="choice" for="Field11_1">15 to 30 Minutes</label>
+          </div>
+          <div>
+            <input id="Field11_2" name="Field11" type="radio" value="3" tabindex="3">
+            <label class="choice" for="Field11_2">30 minutes to 1 hour</label>
+          </div>
+          <div>
+            <input id="Field11_3" name="Field11" type="radio" value="4" tabindex="4">
+            <label class="choice" for="Field11_3">Greater than 1 hour</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    
+    <div>
+      <fieldset>
+        <legend id="title12" class="desc">
+          How much time do your child study on a holiday
+        </legend>
+        <div>
+            <input id="radioDefault_12" name="Field12" type="hidden" value="">
+            <div>
+                <input id="Field12_0" name="Field12" type="radio" value="1" tabindex="1">
+                <label class="choice" for="Field12_0">Less Than 2 hours</label>
+            </div>
+          <div>
+              <input id="Field12_1" name="Field12" type="radio" value="2" tabindex="2">
+              <label class="choice" for="Field12_1">2 to 5 hours</label>
+          </div>
+          <div>
+            <input id="Field12_2" name="Field12" type="radio" value="3" tabindex="3">
+            <label class="choice" for="Field12_2">5 to 10 hours</label>
+          </div>
+          <div>
+            <input id="Field12_3" name="Field12" type="radio" value="4" tabindex="4">
+            <label class="choice" for="Field12_3">Greater than 10 hours</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend id="title13" class="desc">
+          Do Your child attending for any paid classes such as tutions
+        </legend>
+        <div>
+            <input id="radioDefault_13" name="Field13" type="hidden" value="">
+            <div>
+                <input id="Field13_0" name="Field13" type="radio" value="yes" tabindex="1">
+                <label class="choice" for="Field13_0">Yes</label>
+            </div>
+          <div>
+              <input id="Field13_1" name="Field13" type="radio" value="no" tabindex="2">
+              <label class="choice" for="Field13_1">NO</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend id="title14" class="desc">
+          Do Your child participate in any of the extra-curricular activities
+        </legend>
+        <div>
+            <input id="radioDefault_14" name="Field14" type="hidden" value="">
+            <div>
+                <input id="Field14_0" name="Field14" type="radio" value="yes" tabindex="1">
+                <label class="choice" for="Field14_0">Yes</label>
+            </div>
+          <div>
+              <input id="Field14_1" name="Field14" type="radio" value="no" tabindex="2">
+              <label class="choice" for="Field14_1">NO</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend id="title15" class="desc">
+          Do Your child has Internet facility at your house
+        </legend>
+        <div>
+            <input id="radioDefault_15" name="Field15" type="hidden" value="">
+            <div>
+                <input id="Field15_0" name="Field15" type="radio" value="yes" tabindex="1">
+                <label class="choice" for="Field15_0">Yes</label>
+            </div>
+          <div>
+              <input id="Field15_1" name="Field15" type="radio" value="no" tabindex="2">
+              <label class="choice" for="Field15_1">NO</label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <label class="desc" id="title16" for="Field16">How much free time your child gets after school.Enter a value between 1 to 5 (1 stands for very low and 5 stands for very high)</label>
+      <div>
+        <input id="Field16" name="Field16" type="text" class="field text fn" value="" size="8" tabindex="1">
+      </div>
+    </div>
+
+    <div>
+      <label class="desc" id="title17" for="Field17">How often your child goes out with friends.Enter a value between 1 to 5 (1 stands for very low and 5 stands for very high)</label>
+      <div>
+        <input id="Field17" name="Field17" type="text" class="field text fn" value="" size="8" tabindex="1">
+      </div>
+    </div>
+
+    <div>
+      <label class="desc" id="title18" for="Field18">How is your childs health during this year.Enter a value between 1 to 5 (1 stands for very bad and 5 stands for very good)</label>
+      <div>
+        <input id="Field18" name="Field18" type="text" class="field text fn" value="" size="8" tabindex="1">
+      </div>
+    </div>
+
+    <div>
+      <div>
+            <input id="saveForm" name="submit" type="submit" value="submit">
+      </div>
+    </div>
+        
+    </form>
+  </body>
+</html>
