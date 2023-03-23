@@ -20,7 +20,7 @@
     <!----<link rel="stylesheet" href="assets/css/style1.css">
 
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" >
+    <link rel="shortcut icon" href="assets/images/logo.jpg" >
   </head>
   <body>
     <div class="container-scroller">
