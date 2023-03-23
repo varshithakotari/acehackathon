@@ -195,8 +195,8 @@ include "student-navbar.php";
 											</div> -->
 
 
-											<div class="col-md-3 stretch-card grid-margin">
-                <div class="card bg-gradient-primary card-img-holder text-white">
+				<div class="col-md-3 stretch-card grid-margin">
+                 <div class="card bg-gradient-primary card-img-holder text-white">
                   <div class="card-body" style="padding:0.3rem 0.3rem">
                     
                     <h2 class="mb-5">Sports Rank</h2>

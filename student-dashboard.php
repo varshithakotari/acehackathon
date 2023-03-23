@@ -149,6 +149,7 @@ include 'student-navbar.php';
                      </script>
 
             </div>
+            
             <div class="row">
               <div class="col-md-4 stretch-card grid-margin">
                 <div class="card bg-gradient-danger card-img-holder text-white">
@@ -171,13 +172,20 @@ include 'student-navbar.php';
                 </div>
               </div>
 
-              <script>
-                            var source=new EventSource("student-sports-rank.php");
-                             source.onmessage=function(event)
-                             {
-                              document.getElementById("srank").innerHTML=event.data;
-                              }
-                        </script>
+              
+<?php
+$qu1 = mysqli_query($con , "SELECT student_id,sum(marks) as marks from sports_marks where school_id='$school_id' GROUP BY student_id order by marks desc");
+$var3=0;
+foreach($qu1 as $data)
+{
+	$var3=$var3+1;
+	if($data['student_id']==$student_id)
+	{
+		$rank3 = $var3;
+		break;
+	}
+}
+?>
 
               <div class="col-md-4 stretch-card grid-margin">
                 <div class="card bg-gradient-success card-img-holder text-white">
@@ -185,7 +193,7 @@ include 'student-navbar.php';
                     <h3 class="font-weight-normal mb-3"> <i class="mdi mdi-book-open-variant "></i></h3>
 
                     <h2 class="mb-5">Sports Rank</h2>
-                    <h3 id="srank"><span style="font-size: 2.5rem;"><?php echo $rank; ?></span></h3>                  
+                    <h3 id="srank"><span style="font-size: 2.5rem;"><?php echo $rank3; ?></span></h3>                  
                   </div>
                 </div>
               </div>
