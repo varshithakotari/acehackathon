@@ -124,8 +124,7 @@ include 'student-navbar.php';
         <div class="main-panel">
           <div class="content-wrapper">
             <div class="page-header">
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-0f4f7677-f070-4a61-a59b-fdc2de97d13a"></div>
+            
               <div class="row">
                 <div class="col-sm-12">
                   <h3 class="page-title"><span style="font-size: 1.8rem;">Welcome ! <?php echo $student_name ?></span></h3>
@@ -281,47 +280,6 @@ include 'student-navbar.php';
                 </div>
               </div>
           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-      
-
-
-
-
-
-
-
-
 
 
 
