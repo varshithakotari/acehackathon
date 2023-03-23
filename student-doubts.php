@@ -1,7 +1,8 @@
 <?php
+session_start();
 include "connect.php";
 include "student-navbar.php";
-session_start();
+
 ?>
 <?php
 if (isset($_POST['str'])){

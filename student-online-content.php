@@ -4,13 +4,25 @@ include "student-navbar.php";
 
 ?>
          
+         <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+<<<<<<< HEAD
            
+=======
+            
+>>>>>>> f14711c1dfab3921e1cad750684f5aaf87e005ce
+              <div class="row">
              
                 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                 <div class="elfsight-app-0f4f7677-f070-4a61-a59b-fdc2de97d13a"></div>
                 
                
-               
+</div>
+</div>
+</div>
+</div>
+</div>
                  <!-- plugins:js -->
     <script src="assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
