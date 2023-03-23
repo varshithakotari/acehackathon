@@ -1,7 +1,4 @@
 
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,7 +20,7 @@ session_start();
     <!----<link rel="stylesheet" href="assets/css/style1.css">
 
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="assets/images/logo.jpg" >
+    <link rel="shortcut icon" href="logo.jpg" >
   </head>
   <body>
     <div class="container-scroller">
@@ -66,7 +63,7 @@ session_start();
       <div class="container-fluid page-body-wrapper">
         <!-- partial:partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar" style="font-family: 'Poppins', sans-serif;">
-          <ul class="nav" style="position:fixed">
+          <ul class="nav">
             <li class="nav-item nav-profile">
               <a href="#" class="nav-link">
                 <div class="nav-profile-image">
@@ -119,7 +116,7 @@ session_start();
 
             </li>  -->
             <li class="nav-item">
-              <a class="nav-link" href="backback.html">
+              <a class="nav-link" href="feedback.html">
                 <span class="menu-title" style="font-size: 1.2rem;">Feed Back</span>
                 <i class="mdi mdi-table-large menu-icon"></i>
               </a>
@@ -130,19 +127,6 @@ session_start();
                 <i class="mdi mdi-table-large menu-icon"></i>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="student-online-content.php">
-                <span class="menu-title" style="font-size: 1.2rem;" >Online Content</span>
-                <i class="mdi mdi-contacts menu-icon"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="student-doubts.php">
-                <span class="menu-title" style="font-size: 1.2rem;" >Ask a doubt</span>
-                <i class="mdi mdi-contacts menu-icon"></i>
-              </a>
-            </li>
-
 
           </ul>
         </nav>
