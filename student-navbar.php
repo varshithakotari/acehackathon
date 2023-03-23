@@ -20,7 +20,7 @@
     <!----<link rel="stylesheet" href="assets/css/style1.css">
 
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" >
+    <link rel="shortcut icon" href="assets/images/logo.jpg" >
   </head>
   <body>
     <div class="container-scroller">
@@ -116,7 +116,7 @@
 
             </li>  -->
             <li class="nav-item">
-              <a class="nav-link" href="feedback.html">
+              <a class="nav-link" href="backback.html">
                 <span class="menu-title" style="font-size: 1.2rem;">Feed Back</span>
                 <i class="mdi mdi-table-large menu-icon"></i>
               </a>
