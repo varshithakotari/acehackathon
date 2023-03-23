@@ -1,4 +1,7 @@
 
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -125,6 +128,12 @@
               <a class="nav-link" href="futureanalysis.html">
                 <span class="menu-title" style="font-size: 1.2rem;">Future Analysis</span>
                 <i class="mdi mdi-table-large menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="student-online-content.php">
+                <span class="menu-title" style="font-size: 1.2rem;" >Online Content</span>
+                <i class="mdi mdi-contacts menu-icon"></i>
               </a>
             </li>
 

@@ -5,13 +5,13 @@ include 'connect.php';
 include "teacher-navbar.php";
 
 
-
+$date=date("Y-m-d");
 $school_id = $_SESSION['SCHOOL_ID']; 
 $teacher_id = $_SESSION['TEACHER_ID'];
 $class_id=$_SESSION['CLASS_ID'];
 if(isset($_POST['submit']))
 {
-    $sql1="UPDATE attendance SET '21-03-2022'='p' where student_id='ST1000'";
+    $sql1="INSERT into attendance1 values ($date,$;
     $res1=mysqli_query($con,$sql1);}
 
 $sql = "select su.subject_id as sid, su.subject_name as subject_name,c.class as class,c.section as section,scst.class_id as class_id 
